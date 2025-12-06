@@ -1,0 +1,86 @@
+body{
+         
+ color: blue;
+ background-image:url(background.png) ;
+ background-size: cover;
+} 
+
+header{
+color:blue;    
+background-color:rgb(0,0,0);
+font-family: Roman ;
+}
+
+h1{ 
+font-family: Times New Roman;
+ text-align:center;
+}h2{
+ font-family: Times New Roman; 
+ text-align:center;
+ } 
+h3{ 
+font-family: Times New Roman;
+text-align:center;
+} 
+footer{
+font-family: Comic Sans MS;
+font-size-adjust: 20px;
+color:black;
+background-color:blue;
+text-align: center;
+}
+img{
+           
+size: 100px; 
+position:calc(50% - 50px);
+border-radius: 200px;
+}
+.carte{
+    border-solid: 2px black;
+    border-radius: 15px;
+    border-style: dashed;
+    background-color: black ;
+    width: 900px;
+     margin: 0 auto; 
+     padding: 20px;
+     margin-bottom: 50px;
+
+    
+
+}
+p{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 20px;
+    color :black;
+    text-align: center;
+    
+}
+ 
+ .contact-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* espace entre les boutons */
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #2980b9;
+}
+
+.btn.whatsapp {
+  background: #25D366;
+}
+
+.btn.whatsapp:hover {
+  background: #1da851;
+}
